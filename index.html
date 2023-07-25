@@ -21,10 +21,13 @@
                 'bg-primary': '#B68C5A',
                 'text-primary': '#707070',
                 'header-primary': '#414040',
+                backgroundImage: {
+                'hero-pattern': "url('./images/banner.png')",
               }
             }
           }
         }
+      }
       </script>
     <!--Google font  -->
     <style>
@@ -61,7 +64,7 @@
         <!-- banner section started here -->
         <div class="hero px-24 py-60" style="background-image: url('./images/banner.png');">
           <div class="hero-overlay bg-opacity-60"></div>
-            <div class="hero-content  text-neutral-content">
+            <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
                   <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
                   <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
@@ -146,6 +149,111 @@
             </div>
       </div>
       </section>
+
+      <!-- client says section -->
+      <section class="mt-28">
+           <h1 class="font-eb-gramond text-header-primary text-4xl text-center font-extrabold mb-6">What Our Client Say</h1>
+           <p class="text-base lg:w-[714px] mx-auto text-text-primary text-center mb-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+           <!-- 1st carousel -->
+           <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full ">
+
+              <div>
+                <div class=""style="background-image: url('./images/banner.png');">
+                </div>
+                
+              </div>
+
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <!-- second curousel -->
+            <div id="slide2" class="carousel-item relative w-full ">
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <!-- third curosel -->
+            <div id="slide3" class="carousel-item relative w-full ">
+             
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <!-- fourth curosel -->
+            <div id="slide4" class="carousel-item relative w-full ">
+             
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- faq section -->
+      <section class="mt-28">
+        <h1 class="font-eb-gramond text-header-primary text-4xl text-center font-extrabold mb-6">Frequently Asked Any Questions</h1>
+        <p class="text-base lg:w-[714px] mx-auto text-text-primary text-center mb-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+        <div class="flex flex-col md:flex-row lg:flex-row gap-6">
+              <div class="flex-1 ">
+                  <div class="collapse collapse-plus bg-base-200 mb-8 lg:p-6">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-2xl font-extrabold text-eb-gradon text-header-primary">
+                      1.Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="text-base text-text-primary pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mb-8 lg:p-6">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-2xl font-extrabold text-eb-gradon text-header-primary">
+                      1.Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="text-base text-text-primary pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mb-8 lg:p-6">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-2xl font-extrabold text-eb-gradon text-header-primary">
+                      1.Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="text-base text-text-primary pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mb-8 lg:p-6">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-2xl font-extrabold text-eb-gradon text-header-primary">
+                      1.Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="text-base text-text-primary pt-2" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="flex-1">
+                <img src="images/faq.png"alt="" class="h-[620px]">
+              </div>
+
+        </div>
+
+      </section>
+
+      
 
       
     </main>
