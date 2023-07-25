@@ -18,6 +18,9 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'bg-primary': '#B68C5A',
+                'text-primary': '#707070',
+                'header-primary': '#414040',
               }
             }
           }
@@ -34,8 +37,39 @@
     </style>
 </head>
 <body>
-    <header>
+    <header class="container mx-auto mt-6">
+      <!-- nav bar section started here -->
+          <nav class="flex items-center justify-around flex-col md:flex-row lg:flex-row">
+                <div class="flex items-center justify-center gap-4">
+                  <img class="w-11" src="images/business.png" alt="">
+                  <h3 class="text-header-primary text-4xl font-extrabold">Justice</h3>
+                </div>
+                <div>
+                  <ul class="flex text-text-primary">
+                    <li class="lg:p-8 p-3"><a href="">Home</a></li>
+                    <li class="lg:p-8 p-3"><a href="">Services<i class="fa-solid fa-angle-right pl-1" style="color: #9ea0a3;"></i></a></li>
+                    <li class="lg:p-8 p-3"><a href="">Cases<i class="fa-solid fa-angle-right pl-1" style="color: #9ea0a3;"></i></a></li>
+                    <li class="lg:p-8 p-3"><a href="">Blog<i class="fa-solid fa-angle-right pl-1" style="color: #9ea0a3;"></i></a></li>
+                    <li class="lg:p-8 p-3"><a href="">Contact Us<i class="fa-solid fa-angle-right pl-1" style="color: #9ea0a3;"></i></a></li>
+                  </ul>
+                </div>
+                <div>
+                <button class="btn bg-bg-primary text-white px-7 py-5 ">Free Consultation</button>
+                </div>
+          </nav>
 
+        <!-- banner section started here -->
+        <div class="hero px-24 py-60" style="background-image: url('./images/banner.png');">
+          <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content  text-neutral-content">
+                <div class="max-w-md">
+                  <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                  <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <input type="text" placeholder="search your services" class="px-5 py-4 justify-center items-center w-[300px]">
+                  <button class="btn bg-bg-primary px-10 py-4 border-none">Search</button>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
